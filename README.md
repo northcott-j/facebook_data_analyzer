@@ -36,5 +36,6 @@ Currently, Parallel makes the analysis take longer. I've left the code to suppor
 | Some kind of breakdown of Security information                                      | 3
 | Some kind of analysis of the timeline.html                                          | 3
 | Integrate SMS data with messaging stats                                             | 5
+| Find out if you've sent passwords and who they were sent to .                       | 2
 
 ## README from forked project -> [here](https://github.com/Lackoftactics/facebook_data_analyzer)
