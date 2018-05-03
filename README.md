@@ -22,7 +22,7 @@ Currently, Parallel makes the analysis take longer. I've left the code to suppor
 ### Planned additional analyses 
 |                                       Idea                                          |     Difficulty (1-5)
 |                                    -----------                                      |          :----:
-| Popular words per conversation                                                      | 1
+| Popular words per conversation                                                      | [x]
 | The top words shared by everyone in the conversation                                | 1
 | Who you talk to most across every conversation                                      | 1 
 | Analysis of who sends the most multimedia messages (pictures, stickers, gifs, etc.) | 2
