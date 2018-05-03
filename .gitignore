@@ -1,2 +1,5 @@
+.idea/
+*.svg
+*.DS_Store
 *.xlsx
 example/facebook-monaleigh/messages/*.json
