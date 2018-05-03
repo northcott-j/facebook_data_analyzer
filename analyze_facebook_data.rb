@@ -2,10 +2,8 @@
 
 # My script for 'I analyzed my facebook data and it's story of shyness, loneliness and change'
 
-require 'nokogiri'
-require 'axlsx'
-require 'parallel'
-require 'json'
+require 'bundler/setup'
+Bundler.require
 
 require_relative 'classes/analyzeables/analyzeable'
 require_relative 'classes/analyzeables/contacts'

@@ -24,7 +24,7 @@ class Messages < Analyzeable
     @file_pattern = '*.html'
     @messages = []
 
-    super(parallel: parallel, threads_supported: 0)
+    super(parallel: parallel)
   end
 
   def me
@@ -47,7 +47,7 @@ class Messages < Analyzeable
         File.open("_#{file}.json", 'w') do |json|
           json.write(conversation_messages.to_json)
         end
-      end unless Dir.glob('_*.json').count == messages_files.count
+      end unless ENV['DEBUG'] || (Dir.glob('_*.json').count != messages_files.count)
 
       semaphore = Mutex.new
       parsed_message_files = Dir.glob('_*.json')
