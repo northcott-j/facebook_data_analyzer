@@ -24,7 +24,7 @@ Currently, Parallel makes the analysis take longer. I've left the code to suppor
 |                                    -----------                                      |          :----:
 | Popular words per conversation                                                      | :white_check_mark:
 | Who you talk to most across every conversation                                      | :white_check_mark:
-| The top words shared by everyone in the conversation                                | 1
+| The top words shared by everyone in the conversation                                | :white_check_mark:
 | Find out if you've sent passwords and who they were sent to                         | 2
 | Find out who you talk to most about money                                           | 1
 | Breakdown of who sends the last message                                             | 3
