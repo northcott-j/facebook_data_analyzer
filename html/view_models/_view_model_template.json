@@ -1,0 +1,28 @@
+{
+  "view_model_name": "name for this view - should match file_name",
+  "tables": {
+    "#table_id": {
+      "name": "name for table if needed",
+      "meta": [
+        ["Headers", "or", "Descriptions"]
+      ],
+      "headers": [
+        ["headers", "for", "each", "col", "in", "table"]
+      ],
+      "rows": [
+        ["val1", "val2", "val3"]
+      ]
+    }
+  },
+  "charts": {
+    "#chart_id": {
+      "title": "title for chart",
+      "labels": ["January", "February", "March", "April", "May", "June", "July"],
+      "datasets": [
+        {
+          "data": [1, 2, 3, 4, 5, 6, 7]
+        }
+      ]
+    }
+  }
+}

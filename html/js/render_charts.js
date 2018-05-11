@@ -1,0 +1,3 @@
+renderCharts = function(charts) {
+
+};

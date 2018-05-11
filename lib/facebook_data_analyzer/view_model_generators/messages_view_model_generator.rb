@@ -42,6 +42,10 @@ module FacebookDataAnalyzer
       build_view_model(model_name: sheet_name, tables: [most_talkative])
     end
 
+    def most_talkative_html(view_model:)
+      
+    end
+
     def most_words_in_common_view_model
       sheet_name = 'Words in Common per Convo'
       model_meta = [['Conversation', 'Word', 'Participants in Common', 'Count']]
@@ -129,7 +133,6 @@ module FacebookDataAnalyzer
       model_meta << ["You used #{my_messages_details[:character_count]} characters in total"]
       model_meta << ["You also used #{my_messages_details[:word_count]} words in total"]
       model_meta << ["You also happened to use xD #{my_messages_details[:xd_count]} times"]
-      model_meta << ['']
 
       by_month = FacebookDataAnalyzer::Table.new(name: 'by_month')
       by_month.add_meta(['Messaging by month'])

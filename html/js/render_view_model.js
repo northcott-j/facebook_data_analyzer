@@ -1,0 +1,3 @@
+renderViewModel = function(viewModelName) {
+
+};
