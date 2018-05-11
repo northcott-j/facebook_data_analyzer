@@ -2,6 +2,8 @@
 *.svg
 *.DS_Store
 *.xlsx
+*.html
+archive/*
 example/facebook-monaleigh/messages/*.json
 
 # bundle gem
